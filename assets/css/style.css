@@ -1,0 +1,134 @@
+/* Universal element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* body, a and p elements are used on the whole html */
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header, h1, nav and li elements are used for the header section only */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #d9dcd6;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    padding-top: 15px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* hero class is used for the big image below the header  */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* From content class to h2 is used for the 3 blue horizontal banners section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.bluebanner {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.imageheight { 
+    max-height: 200px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+/* From aside element to imagewidth class is used for the aside vertical banner */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-brand, .benefit-cost, .benefit-lead {
+    margin-bottom: 32px;
+    text-align: center;
+    color: #ffffff
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagewidth {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer and h4 elements are used for the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
