@@ -1,7 +1,7 @@
 # Project Description
 
 ## Web accessibility standards
-Code was optimized for web accessibility standards. HTML file follows the semantic HTML elements for imporved accesibility.
+Code was optimized for web accessibility standards. HTML file follows the semantic HTML elements for imporved accessibility.
 
 ## Refactoring
 HTML and CSS code was improved without changing functionality or look and feel.
